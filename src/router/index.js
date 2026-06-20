@@ -29,6 +29,14 @@ const routes = [
       title: '检疫记录',
     },
   },
+  {
+    path: '/changes',
+    name: 'changes',
+    component: () => import('../views/ScheduleChangeView.vue'),
+    meta: {
+      title: '船期变更',
+    },
+  },
 ]
 
 const router = createRouter({

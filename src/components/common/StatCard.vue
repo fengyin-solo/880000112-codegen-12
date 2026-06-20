@@ -53,4 +53,8 @@ defineProps({
 .stat-card--neutral {
   background: #e7f0eb;
 }
+
+.stat-card--success {
+  background: #e1f0e4;
+}
 </style>
